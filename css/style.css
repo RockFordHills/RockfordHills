@@ -1,0 +1,602 @@
+*, html, body
+{
+	margin:0;
+	padding:0;
+}
+
+/**
+body{
+	height: 3000px;
+}
+**/
+
+.toggle{
+float: right;
+	
+}
+
+.toggle1{
+	width: 100%;
+	padding: 10px 20px;
+	background: black;
+	text-align: left;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+	
+}
+
+
+header
+{
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	
+}
+
+ul
+{
+	list-style:none;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+
+.topnav-right {
+  float: right;
+  position: relative;
+  margin-top: 5%;
+}
+
+header #collapsibleNavbar{
+	float: right;
+	position: relative;
+}
+
+.hlogo
+{
+	margin-top: 11%;
+	color: deepskyblue;
+	/**height: 3px;**/
+	position:relative;
+	font-size: relative;
+	font-family: Georgia, serif;
+	font-style: bold;
+	font-weight: 500;
+	font-variant: small-caps;
+}
+
+#hlogo
+{
+	margin-top: 40px;
+	color: deepskyblue;
+	height: 3px;
+	position:relative;
+	font-size: relative;
+	font-family: Georgia, serif;
+	font-style: bold;
+	font-weight: 500;
+	font-variant: small-caps;
+}
+
+header nav ul li a
+{
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s ease-in;
+
+}
+
+header nav ul li a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+header nav ul li a:hover{
+	text-decoration: none;
+	color: gray;
+
+}
+
+.secondary{
+
+	background-color: black;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+	box-shadow: 0px, 0px, 17px, 0px;
+	transition: all 0.5s;
+}
+
+.carousel-inner{
+	position:absolute;
+}
+
+.carousel-caption{
+	font-family: 'Playfair Display', serif;
+	height: 550px;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	
+}
+
+/**
+.item {
+overflow: hidden;
+width: 100%;
+} **/
+
+.img1, .img2, .img3{
+	-webkit-filter: brightness(200%); /* Safari */
+	filter: brightness(50%);
+	width: 100%;
+}
+
+.hd1{
+	color: white;
+
+}
+
+.hd3{
+	color: white;
+}
+
+@keyframes example {
+  from {color: white;}
+  to {color: orange;}
+}
+
+/* The element to apply the animation to */
+.hc4 {
+  width: 100px;
+  height: 100px;
+  color: orange;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+.into-area{
+	position: relative;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+
+.hc4:hover{ 
+	text-decoration: none;
+	color: orange;
+}
+
+#btn-half , #btn-full{
+	padding: 10px 30px;
+	transition: 1s;
+}
+
+#btn-half{
+	background-color: orange;
+	color: black;
+}
+
+#btn-full{
+	background-color: deepskyblue;
+	color: black;
+}
+
+#btn-full:hover{
+	filter: brightness(70%);
+	background-color:#1E90FF;
+
+}
+#btn-half:hover{
+	filter: brightness(70%);
+	background-color: #F98613;
+ }
+ 
+ .sub-heading{
+	position: relative;
+	margin-bottom: 75px;
+ }
+ 
+ .sub-heading:before{
+	content:"";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -3%;
+	width: 6%;
+	height: 1px;
+	background-color: deepskyblue;
+	z-index: 1;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+	
+ }
+
+ .sub-heading:hover:before{
+	width: 24%;
+	margin-left: -12%;
+ }
+ 
+ .sub-heading:after{
+	content:"";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -12%;
+	width: 24%;
+	height: 1px;
+	background-color: #e1e1e1;
+	
+ }
+ 
+.sub-heading p{
+	color: #818181;
+	display: inline-block;
+	padding: 0px 0px 20pxs;
+	position: relative;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+} 
+
+.intro-block{
+	position: relative;
+	background: #f7f7f7;
+	margin: 50px 0px 0px;
+	text-align: center;
+	padding: 70px 25px 40px;
+}
+ 
+ .intro-block:hover, .intro-block.active{
+	background: deepskyblue;
+ }
+ 
+  .intro-block:hover{
+	transition: .8s ease;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+	-ms-transition: .8s ease;
+
+ }
+ 
+ .intro-block .intro-icon{
+	position: absolute;
+	top: -31px;
+	left: 50%;
+	margin-left: -31px;
+ 
+ }
+ 
+ .intro-block .fa{
+	width:63px;
+	height:63px;
+	font-size:30px;
+	color:white;
+	line-height: 2;
+	background: deepskyblue;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 10px #CCEEF9;
+ 
+ }
+ 
+ .intro-block .fas{
+	width:63px;
+	height:63px;
+	font-size:30px;
+	color:white;
+	line-height: 2;
+	background: deepskyblue;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 10px #CCEEF9;
+ 
+ }
+ 
+ .intro-block:hover .fa, .intro-block.active .fa , .intro-block:hover .fas, .intro-block.active .fas{
+
+	color:deepskyblue;
+	background-color: white;
+	box-shadow: 0px 0px 0px 10px deepskyblue;
+ 
+ }
+ 
+ .intro-block  h3{
+	font-size: 19px;
+	color: deepskyblue;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+ }
+ 
+ .intro-block p{
+	color: #505050;
+ 
+ }
+ 
+ .intro-block:hover h3 , .intro-block:hover p{
+	color: #f6f6f6;
+ }
+ 
+ .feature-area 
+ {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/NY_1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	
+ }
+ 
+ .title h2, p, h3 {
+	color: white;
+ }
+ 
+ .title .sub-heading p{
+	color: white;
+	border-color: deepskyblue;
+ }
+ 
+ .single-feature h3{
+	color:white;
+ }
+ 
+ .single-feature {
+	position:relative;
+	width: 325px;
+	float: left;
+	padding: 30px 0px;
+	text-align: center;
+	border-right: 1px solid #65c8e5;
+	border-bottom: 1px solid #65c8e5;
+	transition: .3s ease;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+ }
+ 
+ .feature-block:after{
+	content:"";
+	display: table;
+ }
+ 
+ .feature-block:after{
+	clear: both;
+ }
+ 
+ .feature-icon{
+	display:inline-block;
+	margin-bottom: 20px;
+ }
+ .single-feature i.fa{
+	border: 2px solid #fff;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 30px;
+	background-color: #00a7dd;
+	color: white;
+	width:64px;
+	height:64px;
+	transition: 0.3s ease;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+ }
+ 
+ .feature-block:hover .single-feature{
+	border-color: white;
+	transition: 0.3s ease;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	
+ }
+ 
+ .single-feature:hover .featured-icon .fa{
+	border:2px solid #00a7dd;
+	background-color: white;
+	color: deepskyblue;
+	
+ }
+ 
+ .single-feature:hover h3 {
+	color: deepskyblue;
+ }
+ 
+ .single-feature:nth-of-type(even){
+	border-right: none;
+ }
+ 
+ .feature-area{
+ padding: 100px 0;
+ }
+ 
+ .single-feature:nth-last-child(2){
+	border-bottom: none;
+ }
+ 
+ .single-feature:last-child{
+	border-bottom: none;
+ }
+ 
+ /*
+ .feature-mockup{
+	bottom: -310px;
+	position: relative;
+ } -->
+ */
+ 
+ .more-feature-area .title h2{
+	color: darkgray;
+ }
+ 
+ .more-feature-area .title .sub-heading p{
+	color: gray;
+ }
+ 
+ .more-feature-area{
+	padding: 100px 0;
+ }
+ 
+ .feature-list ul{
+	list-style:none;
+	
+ }
+ 
+ .feature-list li{
+	position:relative;
+	margin-bottom:30px;
+	padding-left:80px;
+	
+ } 
+ 
+ .feature-list li:hover i{
+	color:white;
+	background-color:#00a7dd;
+	transition: 0.5s ease;
+	-webkit-transition: .5s ease;
+	-moz-transition: .5s ease;
+	-o-transition: .5s ease;
+	-ms-transition: .5s ease;
+ }
+ 
+ .feature-icon {
+	position:absolute;
+	left:0;
+ } 
+ 
+ .feature-icon  i{
+	height:63px;
+	width:63px;
+	text-align:center;
+	font-size: 30px;
+	background:white;
+	color: deepskyblue;
+	border-radius: 50%;
+	border: 2px solid deepskyblue;
+	line-height:59px;
+ }
+ 
+ .feature-details  h3{
+	color:deepskyblue;
+	font-weight:700;
+	text-transform: uppercase;
+ }
+ 
+ .feature-details p{
+	color: #616161;
+	font-weight:200;
+ }
+ 
+ .img11{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/NY_1.jpg);
+	background-size:100% 100%;
+ }
+ 
+ .img21{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/NY_2.jpg);
+	background-size:100% 100%;
+ }
+ 
+ .img31{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/NY_3.jpg);
+	background-size:100% 100%;
+ }
+ 
+ .home , .home ul, .home ul li{
+	height: 710px;
+	width: 100%;
+	color:white;
+	text-align: center;
+ }
+ 
+ .home h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	
+	background-attachment: fixed;
+	padding-top: 220px;
+	
+ }
+ 
+ .home p, .home a{
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+ }
+ 
+ .home i{
+	font-size: 40px;
+ }
+ 
+ 
+ .testimonials{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/NY_1.jpg);
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 120px;
+	padding-bottom:120px;
+	color: white;
+	margin-top: -90px;
+ }
+ 
+ .testimonials .carousel-indicators{
+	bottom: -30px;
+ }
+ 
+ .testimonials .sub-heading p{
+	color:white;
+ }
+ 
+ #testimonials-inner img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border:2px solid deepskyblue;
+	padding: 5px;
+ }
+ 
+ .testimonials .carousel-indicators li.active{
+	background-color: deepskyblue;
+ }
+ 
+ .testimonials .carousel-indicators li{
+	border: 1px solid deepskyblue;
+ }
+ 
+ #contact-form{
+	background-color: black;
+	padding-top: 120px;
+	padding-bottom:120px;
+	color: white;
+	margin-top: -90px;
+ }
+ 
+ @media screen and (max-width: 768px){
+	.toggle1{
+		display: block;
+	}
+	
+	.hlogo{
+		display: none;		
+	}
+	
+	.topnav-right{
+		display: none;
+		float: top;
+		margin-top: 2%
+	}
+	
+	.active{
+		display: block;
+	}
+}
