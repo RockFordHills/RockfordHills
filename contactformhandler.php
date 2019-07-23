@@ -7,7 +7,7 @@
 $from = $_POST['email'];
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'ixj20640@ucmo.edu';
+$sendTo = 'demo@domain.com';
 
 // subject of the email
 $subject = 'SputnikS - New message from contact form';
