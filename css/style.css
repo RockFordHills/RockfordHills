@@ -572,7 +572,15 @@ width: 100%;
  .testimonials .carousel-indicators li{
 	border: 1px solid deepskyblue;
  }
- 
+
+ .ARR{
+	text-align: center;
+	margin-top: 75px;
+	color: deepskyblue;
+
+	font-weight: bold;
+ }
+
  #contact-form{
 	background-color: black;
 	padding-top: 120px;
