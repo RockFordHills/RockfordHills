@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'info@domain.com';
+$from = $_POST['email'];
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'arostonshopify@gmail.com';
+$sendTo = 'ixj20640@ucmo.edu';
 
 // subject of the email
 $subject = 'SputnikS - New message from contact form';
