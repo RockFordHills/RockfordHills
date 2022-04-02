@@ -63,7 +63,7 @@ header #collapsibleNavbar{
 {
 	margin-top: 11%;
 	color: #797D7F;
-	background-color: black;
+	
 	/**height: 3px;**/
 	position:relative;
 	font-size: relative;
@@ -77,7 +77,7 @@ header #collapsibleNavbar{
 {
 	margin-top: 40px;
 	color: #797D7F;
-	background-color: black;
+	
 	height: 3px;
 	position:relative;
 	font-size: relative;
