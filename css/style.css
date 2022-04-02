@@ -62,8 +62,8 @@ header #collapsibleNavbar{
 .hlogo
 {
 	margin-top: 11%;
-	color: #797D7F;
-	
+	color: #ECF0F1;
+	background-color: black;
 	/**height: 3px;**/
 	position:relative;
 	font-size: relative;
@@ -76,8 +76,8 @@ header #collapsibleNavbar{
 #hlogo
 {
 	margin-top: 40px;
-	color: #797D7F;
-	
+	color: #ECF0F1;
+	background-color: black;
 	height: 3px;
 	position:relative;
 	font-size: relative;
