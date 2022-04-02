@@ -62,7 +62,7 @@ header #collapsibleNavbar{
 .hlogo
 {
 	margin-top: 11%;
-	color: #ECF0F1;
+	color: #797D7F;
 	background-color: black;
 	/**height: 3px;**/
 	position:relative;
@@ -76,7 +76,7 @@ header #collapsibleNavbar{
 #hlogo
 {
 	margin-top: 40px;
-	color: #ECF0F1;
+	color: #797D7F;
 	background-color: black;
 	height: 3px;
 	position:relative;
